@@ -13,7 +13,7 @@
 
 This repository contains the code supporting the Segment Anything base model for use with [Autodistill](https://github.com/autodistill/autodistill).
 
-[SAM HQ](https://github.com/SysCV/sam-hq) is a zero-shot segmentation model capable of producing detailed masks, developed by [ETH VIS](https://github.com/SysCV). SAM HQ can segment an entire image into masks, or use points to segment specific parts of an object. You can use Segment Anything with Autodistill to segment objects. Segment Anything does not assign classes, so you should use SAM HQ model with a tool like Grounding DINO or GPT-4V.
+[SAM HQ](https://github.com/SysCV/sam-hq) is a zero-shot segmentation model capable of producing detailed masks, developed by [ETH VIS](https://github.com/SysCV). SAM HQ can segment an entire image into masks, or use points to segment specific parts of an object. You can use SAM HQ with Autodistill to segment objects. SAM HQ does not assign classes, so you should use SAM HQ model with a tool like Grounding DINO or GPT-4V.
 
 Read the full [Autodistill documentation](https://autodistill.github.io/autodistill/).
 
